@@ -173,7 +173,7 @@ section .title::after{
 
 }
 .navbar.sticky .symbol{
-    content: url("images/whiteSymbol.png");
+    content: url("images/whiteSymbol.webp");
     max-width: 50px;
 }
 
@@ -286,7 +286,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/tp-bg.png") no-repeat center;
+    background: url("images/tp-bg.webp") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -312,12 +312,12 @@ section .title::after{
 
     
 }
-.home .home-content .text-2:hover{
+.home .home-content .text-2{
     /* color: white; */
-    background-image: url(images/Asset\ 3.png) ;
+    background-image: url(images/waves.webp) ;
     background-repeat:  repeat-x;
     -webkit-background-clip: text;
-    animation: waterfill 15s linear 1 forwards;
+    animation: waterfill 15s linear infinite forwards;
 }
 @keyframes waterfill{
     0%{
@@ -762,7 +762,7 @@ footer span a:hover{
 
     transition: transform 1s, opacity 1s;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    background-image: url("images/colorSwitch.png");
+    background-image: url("images/colorSwitch.jpg");
     background-size: 330px;
     opacity: 0.85;
   }

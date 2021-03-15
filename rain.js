@@ -22,7 +22,7 @@ particlesJS('rain',
           "nb_sides": 4
         },
         "image": {
-          "src": "images/raindrop.png",
+          "src": "images/raindrop.webp",
           "width": 0.1,
           "height": 5,
           

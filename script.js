@@ -67,26 +67,6 @@ $(document).ready(function(){
       }
   });
 
-  var i=0;
-  var imgs = 3;
-  $("#poster").click(function(){
-    if(on==1){
-    if(i%imgs==0){
-    $(this).css('background-image', "url(images/profile-1.jpeg)");
-    i+=1;
-    }
-    else if(i%imgs==1){
-      $(this).css('background-image', "url(images/profile-2.jpeg)");
-    i+=1;
-    }
-    else if(i%imgs==2){
-      $(this).css('background-image', "url(images/profile-3.jpeg)");
-    i+=1;
-    }
-  }
-  })
-
-
 });
 
 document.addEventListener('keydown', keyDown);
@@ -142,13 +122,13 @@ function changeProj(){
   countProj++;
 
   if(countProj%3==1){
-  proj.style.setProperty('background-image', "url('images/wildwest.png')");
+  proj.style.setProperty('background-image', "url('images/wildwest.jpg')");
   }
   else if(countProj%3==2){
-    proj.style.setProperty('background-image', "url('images/racoon.png')");
+    proj.style.setProperty('background-image', "url('images/racoon.jpg')");
     }
   else{
-      proj.style.setProperty('background-image', "url('images/colorSwitch.png')");
+      proj.style.setProperty('background-image', "url('images/colorSwitch.jpg')");
   }
 }
 
